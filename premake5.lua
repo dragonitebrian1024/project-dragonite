@@ -46,11 +46,11 @@ project "Pong"
         systemversion "latest"
 
         postbuildcommands {
-            ("{COPY} ../ThirdParty/SDL2/lib/SDL2.dll ../Binaries/" .. outputdir .. "/Afterlife"),
-            ("{COPY} ../ThirdParty/SDL2_Image/lib/SDL2_image.dll ../Binaries/" .. outputdir .. "/Afterlife"),
-            ("{COPY} ../ThirdParty/SDL2_Image/lib/libpng16-16.dll ../Binaries/" .. outputdir .. "/Afterlife"),
-            ("{COPY} ../ThirdParty/SDL2_Image/lib/zlib1.dll ../Binaries/" .. outputdir .. "/Afterlife"),
-            ("{COPY} ../ThirdParty/SDL2_ttf/lib/SDL2_ttf.dll ../Binaries/" .. outputdir .. "/Afterlife"),
+            ("{COPY} ../ThirdParty/SDL2/lib/SDL2.dll ../Binaries/" .. outputdir .. "/Pong"),
+            ("{COPY} ../ThirdParty/SDL2_Image/lib/SDL2_image.dll ../Binaries/" .. outputdir .. "/Pong"),
+            ("{COPY} ../ThirdParty/SDL2_Image/lib/libpng16-16.dll ../Binaries/" .. outputdir .. "/Pong"),
+            ("{COPY} ../ThirdParty/SDL2_Image/lib/zlib1.dll ../Binaries/" .. outputdir .. "/Pong"),
+            ("{COPY} ../ThirdParty/SDL2_ttf/lib/SDL2_ttf.dll ../Binaries/" .. outputdir .. "/Pong"),
         }
     
     filter "configurations:Debug"
